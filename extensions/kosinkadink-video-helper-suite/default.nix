@@ -8,8 +8,8 @@ buildExtension {
     owner = "Kosinkadink";
     repo = "ComfyUI-VideoHelperSuite";
     fetchSubmodules = false;
-    rev = "a7ce59e381934733bfae03b1be029756d6ce936d";
-    hash = "sha256-URa1xJQoJNZiA4vWxR8OVqRDJ9fzYHyI1QufxFIFfic=";
+    rev = "8e4d79471bf1952154768e8435a9300077b534fa";
+    hash = "sha256-5K6GLlREQgP1hqaCqEc7oVduNnSYxx+NagD2lMqUxt0=";
   };
 
   propagatedBuildInputs = [

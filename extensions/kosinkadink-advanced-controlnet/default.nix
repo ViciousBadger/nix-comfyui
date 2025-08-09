@@ -8,8 +8,8 @@ buildExtension {
     owner = "Kosinkadink";
     repo = "ComfyUI-Advanced-ControlNet";
     fetchSubmodules = false;
-    rev = "da254b700db562a22e03358b933c85a9a3392540";
-    hash = "sha256-3xNaBOGULhJS4qZICUJ1HLUr71IIaDLFBjd4sM9ytAs=";
+    rev = "2bde95a468ce5fd3959f646258606ae221fa1e17";
+    hash = "sha256-AinLlpYlMNd+gVGyuf0cV7K6B6dwPbFqmkoFLBBMc/k=";
   };
 
   propagatedBuildInputs = [

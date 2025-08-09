@@ -5,7 +5,7 @@ Subject: [PATCH] subst-executables
 
 
 diff --git a/videohelpersuite/utils.py b/videohelpersuite/utils.py
-index 5a52f85..24d1937 100644
+index 75431d5..94e7424 100644
 --- a/videohelpersuite/utils.py
 +++ b/videohelpersuite/utils.py
 @@ -61,8 +61,8 @@ class ContainsAll(dict):
