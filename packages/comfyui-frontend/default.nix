@@ -9,11 +9,11 @@ buildNpmPackage {
     owner = "Comfy-Org";
     repo = "ComfyUI_frontend";
     fetchSubmodules = false;
-    rev = "e9ddf2950700ce5aa2c0410291c9e742ce6264ef";
-    hash = "sha256-TDUQfgZTh3S33X1kkp/gZ0vBQ48PxEkDSURFjAbln2E=";
+    rev = "882506dfb16ffb3cffc3e1f8f2235b9bb03d380a";
+    hash = "sha256-EurLFurseq2crDDvHbVXtucbHwvoZR9jhzTwr6kTMjk=";
   };
 
-  npmDepsHash = "sha256-p0GylYzU7IGea2+Off8gWYfjgRUrniYd7CBtNGTWdPs=";
+  npmDepsHash = "sha256-QcQNNw1q8ImiM44ENHKVJl4wupCJg2ngTjfpjFWoaQY=";
 
   installPhase = ''
     runHook preInstall
