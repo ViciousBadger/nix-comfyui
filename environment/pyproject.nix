@@ -5,8 +5,7 @@
   lib,
 }: let
   finalContent =
-    lib.recursiveUpdate
-    {
+    lib.recursiveUpdate {
       tool.poetry.name = "comfyui-environment";
 
       tool.poetry.dependencies = {
@@ -36,7 +35,7 @@
         numpy = "<2"; # numpy==2.0.2 gives "AttributeError: _ARRAY_API not found"
         omegaconf = "*";
         onnx = "*";
-        onnxruntime = "*";
+        onnxruntime = "==1.22.1";
         open-clip-torch = "*";
         opencv-python = "==4.7.0.72";
         packaging = "*";
